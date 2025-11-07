@@ -20,10 +20,11 @@
 
 <br/>
 
-## GitHub Streaks
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leejay-glitch&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak"/>
-</div>
+## About Me
+**Nairobi-based Data Scientist** turning chaos into clarity , one insight at a time.  
+I build **AI that predicts, protects, and performs**: from forecasting athlete injuries to securing clean water for communities.  
+Obsessed with **real-world impact**, **clean code**, and **stories hidden in data**.  
+*If it can be measured, I can model it. If it matters, I’ll make it visible.*
 
 <br/>
 
