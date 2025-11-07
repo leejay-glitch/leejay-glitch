@@ -1,5 +1,3 @@
-# leejay_glitch
-
 <div align="center">
   <!-- Optional banner – delete if not using -->
   <!-- <img src="https://github.com/user-attachments/assets/YOUR-IMAGE-ID" alt="Banner" width="100%"/> -->
