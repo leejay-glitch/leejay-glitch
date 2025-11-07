@@ -43,3 +43,38 @@ Data Tools:   Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib
 ML/Analytics: Clustering (K-Means), Regression, EDA, Sentiment Analysis
 Domains:      Aviation Risk, Water Prediction, Sports Analytics, Utilities, Movies
 Other:        Git, GitHub Actions
+
+
+---
+
+### 2. Quick customisation checklist
+
+| What | How |
+|------|-----|
+| **Banner image** | Upload any picture to **GitHub → Settings → User attachments**, copy the ID, replace `YOUR-BANNER-IMAGE-ID`. *Or delete the whole `<img>` line.* |
+| **Social links** | Edit the three `href=` values with your real LinkedIn, Twitter, and email. |
+| **Theme** | Change `theme=radical` to `dracula`, `tokyonight`, etc. in every URL if you prefer another colour scheme. |
+| **Add more badges** | Want stars/forks on your own repos? Add `<img src="https://img.shields.io/github/stars/leejay-glitch/Aircraft-risk-analysis?style=social"/>` under the project. |
+
+---
+
+### 3. (Optional) Auto-update stats daily  
+
+Create the folder structure **`.github/workflows/`** inside the same repo and add a file `update-readme.yml`:
+
+```yaml
+name: Update README Stats
+on:
+  schedule:
+    - cron: '0 0 * * *'   # midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: leejay-glitch
